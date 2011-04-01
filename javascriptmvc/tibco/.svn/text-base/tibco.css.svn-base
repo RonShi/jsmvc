@@ -1,0 +1,274 @@
+html{
+        height:100%;
+      }
+      
+      body{ 
+        font: 62.5% Arial,sans-serif; 
+        margin: 0px;
+        padding: 0px;
+        height : 100%;
+      }
+      .demoHeaders { margin-top: 2em; }
+      #dialog_link {padding: .4em 1em .4em 20px;text-decoration: none;position: relative;}
+      #dialog_link span.ui-icon {margin: 0 5px 0 0;position: absolute;left: .2em;top: 50%;margin-top: -8px;}
+      ul#icons {margin: 0; padding: 0;}
+      ul#icons li {margin: 2px; position: relative; padding: 4px 0; cursor: pointer; float: left;  list-style: none;}
+      ul#icons span.ui-icon {float: left; margin: 0 4px;}
+      
+      
+      #header{
+        height:38px;
+        background-image: url("images/headerBar.jpg"); 
+        background-repeat: repeat-x; 
+        border: 1px solid rgb(51, 139, 218);
+      }
+      #header #logo{
+        height:38px;
+        float:left;
+      }
+      #utilityLinks{
+        position: relative; 
+        height: 28px; 
+        padding: 10px 20px 0px; 
+        background-image: url("images/header_administrationBackground.jpg"); 
+        float: right; 
+        background-repeat: repeat; 
+        border-left: 1px solid rgb(51, 139, 218);
+      }
+      
+      #utilityLinks{
+        color : #BDEDEA;
+      }
+      
+      #utilityLinks a:link, #utilityLinks a:active, #utilityLinks a:visited, #utilityLinks a:hover{
+        color : #BDEDEA;
+        text-decoration:underline;
+      }
+      
+      #navBar{
+        height:21px;
+        font-size:11px;
+      }
+      
+      #mainWrapper{
+        margin-left : 20px;
+        margin-right : 20px;
+      }
+      
+      .sectionTitle{
+        position: relative; 
+        font-size: 16px; 
+        font-weight: bold; 
+        font-family: Arial; 
+        white-space: nowrap;
+      }
+      
+      .tabContents{
+        border-color : #555555;
+        border-style : none solid solid;
+        border-width : 0 1px 1px;
+      }
+      .tabButtons{
+        border-bottom : 1px solid #555555;
+        height:22px;
+      }
+      .tabButtons button{
+        height: 23px;
+        background : transparent;
+        padding : 0px;
+        margin : 0px;
+        border: 0px;
+        margin-left : -3px; /* fixing for firefox */
+      }
+      
+      .tabButtons .tabButtonRight{      
+        float:left;
+        width:7px;
+        height:23px;
+        background-image : url("images/tab.gif");
+        background-repeat : no-repeat;
+        background-position :right top;
+      }
+      
+      .tabButtons .tabButtonMiddle{
+        float:left;
+        height:21px;
+        font-family : Arial;
+        background-image : url("images/tab.gif");
+        background-repeat : no-repeat;
+        background-position : top;
+        font-size : 11px;
+        font-weight : bold;
+        color : #2F475D;
+        padding-top : 2px;
+      }
+      
+      .tabButtons .tabButtonLeft{        
+        float:left;
+        width:7px;
+        height:23px;
+        background-image : url("images/tab.gif");
+        background-repeat : no-repeat;
+        background-position : left top;
+      }
+      .tabActived .tabButtonLeft, .tabActived .tabButtonMiddle, .tabActived .tabButtonRight{
+        background-image : url("images/tab_selected.gif");
+      }
+      
+      .tabContents{
+        padding : 10px;
+      }
+      
+      .clearFloat{
+        font-size:0px;
+        clear:both;
+        height:0px;
+        display:none;
+      }
+      
+      .formFieldTitle{
+        font-weight : bold;
+      }
+      
+      .tabContents td{
+        padding : 5px;
+        font-size : 11px;
+      }
+      .tabContents input,.tabContents select{
+        width:100%;
+        font-size : 11px;
+      }
+      
+      .commonButton{
+        height:18px;
+        padding:0px;
+        margin:0px;
+        /* background:none; */
+        border : 0px solid black;
+      }
+      .commonButton .commonButtonLeft{
+        float:left;
+        background-image : url("images/button.jpg");
+        height:18px;
+        width:7px;
+        background-repeat : no-repeat;
+        background-position : left top;
+      }
+      
+      .commonButton .commonButtonRight{
+        float:left;
+        background-image : url("images/button.jpg");
+        height:18px;
+        width:7px;
+        background-repeat : no-repeat;
+        background-position : right top;
+      }
+      
+      .commonButton .commonButtonMiddle{
+        padding-top : 2px;
+        font-size:11px;
+        font-family : Arial;
+        float:left;
+        background-image : url("images/button.jpg");
+        height:16px;
+        background-repeat : no-repeat;
+        background-position : top;
+        color : #2F475D;
+        font-weight : bold;
+      }
+      
+      .dataTable {
+          width : 100%;
+          border-collapse:collapse;
+          border : 1px solid #DEDEDE ;
+      }
+      
+      
+      .dataTable tbody td {
+          border:solid #DEDEDE;
+          border-width:0 1px 0px 0;
+          padding : 2px;
+          padding-left : 5px;
+          font-size : 11px;
+          color : #424242;
+      }
+      
+      .dataTable tbody .zibra{
+        background-color : #F8F8F8;
+      }
+      
+      .dataTable thead td {
+          border:solid #999;
+          border-width:0 1px 1px 0;
+          padding:2px;
+          padding-left : 5px;
+          font-size : 11px;
+      }
+      
+      .dataTable thead{
+        background : url("images/tableHeaderBkgrd.jpg") repeat-x scroll #CCCCCC top left;
+        border : 1px solid #AAAAAA;
+        font-weight : bold;
+      }
+      
+      
+      .dataTable .selected{
+        background-image : url("images/row_Highlight.jpg");
+        background-repeat : repeat-x;
+      }
+      
+      .actionBar{
+        height : 26px;
+        background : url("images/actionBar_background.jpg") repeat-x scroll #CCCCCC top left;
+        border : 1px solid #9C9C9C;
+      }
+      
+      .actionBarButton{
+        padding : 0px;
+        padding-left : 10px;
+        font-size : 11px;
+        border : 0px;
+        background : transparent;
+      }
+      
+      .actionBarButton img {
+        padding-top : 5px;
+        float:left;
+      }
+      .actionBarButton div{
+        float : left;
+        padding-top : 6px;
+        padding-left : 3px;
+      }
+      
+      .tabLinks{
+        padding-top : 10px;
+        padding-left : 10px;
+      }
+      
+      .tabLinks span{
+        cursor : pointer;
+        color : #346693;
+        font-size : 11px;
+        font-family : Arial;
+        text-decoration : underline;
+      }
+      
+      .tabLinks .actived{
+        color : #333;
+        font-weight : bold;
+        text-decoration : none;
+      }
+      
+      .tabLinkContents{
+        padding : 20px;
+      }
+      
+      .tabLinkContent .buttons{
+        padding-top : 20px;
+      }
+      
+      
+.strong{
+  font-weight:bold;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+            "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+	<head>
+		<title>tibco</title>
+	</head>
+	<body>
+  <script type='text/javascript'><!--
+    var logTime = {
+        initPage: {},
+        menu: {},
+        master: {},
+        application: {},
+        applicationRefresh: {}
+    };
+    if (window.console == undefined){
+      window.console = {
+          log: function(){}
+      };
+    }
+    function t(s){
+      var t = new Date().getTime();
+      console.log(s+': '+t);
+      return t;
+    }
+    function ct(){
+      var time = "";
+      $.each(logTime, function(n, v){
+        if (v.start && v.end){
+          time+= n.toString() + ": " + (v.end - v.start) + " MS.\n";
+        }
+      });
+      alert(time);
+    }
+    logTime.initPage.start = t('init page start');
+  --></script>
+		<script type='text/javascript' 
+                src='../steal/steal.js?tibco'>   
+        </script>
+	</body>
+</html>

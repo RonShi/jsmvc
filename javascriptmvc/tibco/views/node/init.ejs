@@ -1,0 +1,93 @@
+    <table style="height:100%;width:100%">
+      <tr class="staticHeight" style="height:200px;overflow:scroll">
+        <td id="masterWrapper" style="vertical-align:top; ">
+          
+          <div style="padding-top:20px;" class="sectionTitle">Nodes</div>
+          
+          <div class="actionBar">
+            
+            <button class="actionBarButton">
+              <img src="images/add.gif" />
+              <div>New</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/delete.gif" />
+              <div>Delete</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/installed.gif" />
+              <div>Install</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/uninstall.gif" />
+              <div>Uninstall</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/started_running.gif" />
+              <div>Start</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/stopped.gif" />
+              <div>Stop</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            
+            <div class="clearFloat"></div>
+            
+          </div>
+          <table class="dataTable">
+                      <thead>
+                          <tr>
+                              <td>
+                              Name
+                              </td>
+                              <td>
+                              Host
+                              </td>
+                              <td>
+                              Machine
+                              </td>
+                              <td>
+                              Runtime State
+                              </td>
+                              <td>
+                              Synchronization
+                              </td>
+                              <td>
+                              Startup Mode
+                              </td>
+                              <td>
+                              Action History
+                              </td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      <%for(var i = 0; i < 6 ; i++){%>
+                          <tr<%if (i%2 != 0){%> class="zibra"<%}%>>
+                              <td>Node <%= i+1%></td>
+                              <td>SystemHost</td>
+                              <td>localhost</td>
+                              <td>Running</td>
+                              <td>In Sync</td>
+                              <td>Automatic</td>
+                              <td> </td>
+                          </tr>
+                      <%}%>
+                      </tbody>
+                  </table> 
+          
+          
+        </td>
+      </tr>
+    </table>

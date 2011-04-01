@@ -1,0 +1,90 @@
+  <div id="header">
+    <div id="logo"><img src="images/logo-header.jpg" /></div>
+    <div id="utilityLinks">
+      <a href="#">Help</a> | <a href="#">Profile</a> | <a href="#">About</a> | <a href="#">Logout</a>
+    </div>
+  </div>
+  <div id="navBar" class="ddsmoothmenu">
+            <ul>
+                <li>
+                    <a href="#" class="preselected">DashBoard</a>
+                    <ul>
+                      <li>
+                        <a href="#welcome_page" class="item">Welcome Page</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">Infrastructure</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#application" class="item">Applications</a>
+                </li>
+                <li>
+                    <a href="#">Infrastructure</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="item">Enterprise Graphical View</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">Environments</a>
+                        </li>
+                        <li>
+                            <a href="#host" class="item">Hosts</a>
+                        </li>
+                        <li>
+                            <a href="#node" class="item">Nodes</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">Servers</a>
+                        </li>
+                        <li>
+                            <a href="#" class="item">Software Management</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Governance</a>
+                    <ul>
+                      <li>
+                        <a href="#" class="item">Log Viewer</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">User and Groups</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">Enterprise Permissions</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Shared Objects</a>
+                    <ul>
+                      <li>
+                        <a href="#" class="item">Resource Templates</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">Substitution Variables</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">Logging Appenders</a>
+                      </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Admin Configuration</a>
+                    <ul>
+                      <li>
+                        <a href="#" class="item">Admin Server</a>
+                      </li>
+                      <li>
+                        <a href="#" class="item">Plug-ins</a>
+                      </li>
+                      
+                    </ul>
+                </li>
+            </ul>
+            <br style="clear: left" />
+    
+    
+  </div>

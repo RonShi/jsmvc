@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/gi/!svn/ver/14664/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers
+END
+detail_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/gi/!svn/ver/14664/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/detail_controller.js
+END
+application_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/gi/!svn/ver/14635/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/application_controller.js
+END
+menu_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/gi/!svn/ver/14664/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/menu_controller.js
+END
+node_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/gi/!svn/ver/14635/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/node_controller.js
+END
+welcome_page_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/gi/!svn/ver/14635/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/welcome_page_controller.js
+END
+master_controller.js
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/gi/!svn/ver/14664/trunk/internal/ux/UX-DEV/KnowledgeSharing/jQuery_vs_GWT/jsmvc/tibco/controllers/master_controller.js
+END

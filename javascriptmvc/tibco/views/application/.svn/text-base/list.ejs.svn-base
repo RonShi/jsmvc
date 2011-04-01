@@ -1,0 +1,5 @@
+<%for(var i = 0; i < applications.length ; i++){%>
+	<tr <%= applications[i]%>>
+		<%= $.View('//tibco/views/application/show',applications[i])%>
+	</tr>
+<%}%>

@@ -1,0 +1,83 @@
+    <table style="height:100%;width:100%">
+      <tr class="staticHeight" style="height:200px;overflow:scroll">
+        <td id="masterWrapper" style="vertical-align:top; ">
+          
+          <div style="padding-top:20px;" class="sectionTitle">Application</div>
+          
+          <div class="actionBar">
+            
+            <button class="actionBarButton">
+              <img src="images/add.gif" />
+              <div>New</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/delete.gif" />
+              <div>Delete</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/installed.gif" />
+              <div>Deploy</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/uninstall.gif" />
+              <div>Undeploy</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/started_running.gif" />
+              <div>Start</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            <button class="actionBarButton">
+              <img src="images/stopped.gif" />
+              <div>Stop</div>
+              <div class="clearFloat"></div>
+            </button>
+            
+            
+            <div class="clearFloat"></div>
+            
+          </div>
+          <table class="dataTable">
+                      <thead>
+                          <tr>
+                              <td>
+                              Name
+                              </td>
+                              <td>
+                              Runtime State
+                              </td>
+                              <td>
+                              Last Deployed On
+                              </td>
+                              <td>
+                              Synchronization
+                              </td>
+                              <td>
+                              Action History
+                              </td>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      <%for(var i = 0; i < applications.length ; i++){%>
+                        <tr<%if (i%2 != 0){%> class="zibra"<%}%>>
+                          <td><%= applications[i]['name'][0].Text%></td>
+                          <td><%= applications[i]['runtimeState'][0].Text%></td>
+                          <td><%= applications[i]['lastDeployed'][0].Text%></td>
+                          <td><%= applications[i]['synchronization'][0].Text%></td>
+                          <td><%= applications[i]['actionStatus'][0].Text%></td>
+                        </tr>
+                      <%}%>
+                      </tbody>
+                  </table> 
+        </td>
+      </tr>
+    </table>

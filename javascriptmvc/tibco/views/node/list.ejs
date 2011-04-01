@@ -1,0 +1,5 @@
+<%for(var i = 0; i < nodes.length ; i++){%>
+	<tr <%= nodes[i]%>>
+		<%= $.View('//tibco/views/node/show',nodes[i])%>
+	</tr>
+<%}%>

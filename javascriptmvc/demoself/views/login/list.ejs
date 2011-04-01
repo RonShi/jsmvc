@@ -1,0 +1,5 @@
+<%for(var i = 0; i < logins.length ; i++){%>
+	<tr <%= logins[i]%>>
+		<%= $.View('//demoself/views/login/show',logins[i])%>
+	</tr>
+<%}%>

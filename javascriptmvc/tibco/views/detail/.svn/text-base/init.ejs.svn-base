@@ -1,0 +1,367 @@
+<div id="sectionTitle" class="sectionTitle"><%= details.name %></div>
+          <div id="detailTabs">
+            <div class="tabButtons">
+              <button target="detailTabContent" class="tabActived">
+                <div class="tabButtonLeft"></div>
+                <div class="tabButtonMiddle">Details</div>                
+                <div class="tabButtonRight"></div>
+                <div class="clearFloat"></div>
+              </button>
+              <button target="configurationTabContent">
+                <div class="tabButtonLeft"></div>
+                <div class="tabButtonMiddle">Configuration</div>                
+                <div class="tabButtonRight"></div>
+                <div class="clearFloat"></div>
+              </button>
+            </div>
+            <div class="tabContents">
+              <div id="detailTabContent" class="tabContent">
+                
+                <table width="100%" height="100%">
+                  <tr>
+                    <td>
+                      <span class="formFieldTitle">General Information<span>
+                        
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="formFieldTitle">Name</span><br />
+                      <span class="formFieldValue">DevNode</span>
+                    </td>
+                    <td>
+                      <span class="formFieldTitle">Contact </span><br />
+                      <span class="formFieldValue"><input value="TIBCO" /></span>
+                    </td>
+                    <td>
+                      <span class="formFieldTitle">Modified By </span><br />
+                      <span class="formFieldValue">root</span>
+                    </td>
+                    <td>
+                      <span class="formFieldTitle">Modified On </span><br />
+                      <span class="formFieldValue">2010-03-16 21:08:01</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="formFieldTitle">Host  </span><br />
+                      <span class="formFieldValue">SystemHost</span>
+                    </td>
+                    <td>
+                      <span class="formFieldTitle">Port Number  </span><br />
+                      <span class="formFieldValue">6031</span>
+                    </td>
+                    <td>
+                      <span class="formFieldTitle">Startup Mode  </span><br />
+                      <span class="formFieldValue">
+                        <select value="auto">
+                          <option value="auto">Automatic</option>
+                          <option value="manual">Manual</option>
+                          <option value="disabled">Disabled</option>
+                        </select>
+                      </span>
+                    </td>
+                    <td>
+                      
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <span class="formFieldTitle">Description  </span><br />
+                      <span class="formFieldValue"><input value="TIBCO" /></span>
+                    </td>
+                    
+                  </tr>
+                  <tr>
+                    <td colspan="4">
+                      <button class="commonButton">
+                        <div class="commonButtonLeft"></div>
+                          <div class="commonButtonMiddle">Save</div>                
+                          <div class="commonButtonRight"></div>
+                          <div class="clearFloat"></div>
+                      </button>
+                      <button class="commonButton">
+                        <div class="commonButtonLeft"></div>
+                          <div class="commonButtonMiddle">Revert</div>                
+                          <div class="commonButtonRight"></div>
+                          <div class="clearFloat"></div>
+                      </button>
+                    </td>
+                  </tr>
+                </table>
+                
+              </div>
+              <div id="configurationTabContent" class="tabContent">
+                
+                
+                  <div class="tabLinks">
+                     
+                    <span class="actived" target="features">Features</span>
+                    |
+                     
+                     
+                    <span target="sv">Substitution Variables</span>
+                    |
+                     
+                     
+                    <span target="debug">Debuggers</span> 
+                    
+                  </div>
+                  <div class="tabLinkContents">
+                    <div class="tabLinkContent" id="features">
+                      
+                      
+                      
+                      <div class="actionBar">
+                        
+                        <button class="actionBarButton">
+                          <img src="images/add.gif" />
+                          <div>Add</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        <button class="actionBarButton">
+                          <img src="images/delete.gif" />
+                          <div>Delete</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        <button class="actionBarButton">
+                          <img src="images/deploy.gif" />
+                          <div>Apply</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        
+                        <div class="clearFloat"></div>
+                        
+                      </div>
+                      <table class="dataTable">
+                          <thead> 
+                              <tr>
+                                  <td>
+                                  Name
+                                  </td>
+                                  <td>
+                                  Type
+                                  </td>
+                                  <td>
+                                  Version
+                                  </td>
+                                  <td>
+                                  Status
+                                  </td>
+                                  
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="selected">
+                                  <td>Tibco AMX PlatForm</td>
+                                  <td>runtime</td>
+                                  <td>1.2 dev</td>
+                                  <td>Installed</td>
+                                  
+                              </tr>
+                              <tr class="zibra">
+                                  <td>JAVA</td>
+                                  <td>runtime</td>
+                                  <td>1.3 dev</td>
+                                  <td>Installed</td>
+                                  
+                              </tr>
+                              <tr class="">
+                                  <td>Message Bus</td>
+                                  <td>runtime</td>
+                                  <td>3.1 </td>
+                                  <td>Installed</td>
+                                  
+                              </tr>
+                              
+                              
+                          </tbody>
+                      </table> 
+                      <div class="buttons">
+                        <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Save</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                          <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Revert</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                      </div>    
+                      
+                      
+                    </div>
+                    <div class="tabLinkContent" id="sv">
+                      
+                      
+                      
+                      <div class="actionBar">
+                        
+                        <button class="actionBarButton">
+                          <img src="images/add.gif" />
+                          <div>Add</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        <button class="actionBarButton">
+                          <img src="images/delete.gif" />
+                          <div>Delete</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        
+                        
+                        <div class="clearFloat"></div>
+                        
+                      </div>
+                      <table class="dataTable">
+                          <thead> 
+                              <tr>
+                                  <td>
+                                  Name
+                                  </td>
+                                  <td>
+                                  Type
+                                  </td>
+                                  <td>
+                                  Description
+                                  </td>
+                                  <td>
+                                  Local Value
+                                  </td>
+                                  
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="selected">
+                                  <td>DevNode</td>
+                                  <td>SystemHost</td>
+                                  <td>localhost</td>
+                                  <td>Running</td>
+                                  
+                              </tr>
+                              <tr class="zibra">
+                                  <td>DevNode</td>
+                                  <td>SystemHost</td>
+                                  <td>localhost</td>
+                                  <td>Running</td>
+                                  
+                              </tr>
+                              
+                              
+                              
+                          </tbody>
+                      </table> 
+                      <div class="buttons">
+                        <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Save</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                          <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Revert</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                      </div>
+                      
+                      
+                      
+                    </div>
+                    <div class="tabLinkContent" id="debug">
+                      
+                      
+                      <div class="actionBar">
+                        
+                        <button class="actionBarButton">
+                          <img src="images/started_running.gif" />
+                          <div>Enable</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        <button class="actionBarButton">
+                          <img src="images/stopped.gif" />
+                          <div>Disable</div>
+                          <div class="clearFloat"></div>
+                        </button>
+                        
+                        
+                        <div class="clearFloat"></div>
+                        
+                      </div>
+                      <table class="dataTable">
+                          <thead> 
+                              <tr>
+                                  <td>
+                                  Type
+                                  </td>
+                                  <td>
+                                  State
+                                  </td>
+                                  <td>
+                                  Synchronization
+                                  </td>
+                                  <td>
+                                  Property Name
+                                  </td>
+                                  <td>
+                                  Property Value
+                                  </td>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr class="selected">
+                                  <td>Java Debugger</td>
+                                  <td>DISABLED</td>
+                                  <td>In Sync</td>
+                                  <td> </td>
+                                  <td> </td>
+                                  
+                              </tr>
+                              <tr class="zibra">
+                                  <td>Platform Debugger</td>
+                                  <td>DISABLED</td>
+                                  <td>In Sync</td>
+                                  <td> </td>
+                                  <td> </td>
+                                  
+                              </tr>
+                              
+                              
+                          </tbody>
+                      </table> 
+                      <div class="buttons">
+                        <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Save</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                          <button class="commonButton">
+                            <div class="commonButtonLeft"></div>
+                              <div class="commonButtonMiddle">Revert</div>                
+                              <div class="commonButtonRight"></div>
+                              <div class="clearFloat"></div>
+                          </button>
+                      </div>
+                      
+                      
+                    </div>
+                    
+                  </div>               
+                
+                
+              </div>
+            </div>
+          </div>
